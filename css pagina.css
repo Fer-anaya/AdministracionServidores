@@ -1,0 +1,50 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBC48D;
+}
+
+/* Navegación */
+nav {
+    background-color: #FF840B;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #FF7206;
+}
+
+/* Estilos de la página principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
